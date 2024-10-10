@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: #280003;
+}
+.container{
+    display: flex;
+    color:#280003;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    margin-left: 15%;
+}
+.box{
+    height:230px;
+     width: 230px;
+     background-color: #baa898;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     padding: 25px;
+     border: 5px solid #848586; 
+     border-radius: 50px;
+}
+.box:hover{
+    border: 5px solid white;
+}
+
+.box button{
+    background-color: #848586;
+    border-radius: 35px;
+    padding: 20px;
+    &&:hover{
+        border: 2px solid whitesmoke;
+    }
+}
